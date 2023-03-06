@@ -138,7 +138,6 @@ body {
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
-
 .hero .content .cta {
   margin-top: 1rem;
   display: inline-block;
@@ -162,7 +161,6 @@ body {
   text-align: center;
   margin-bottom: 3rem;
   font-style: italic;
-
 }
 
 .about h2 span,
@@ -179,7 +177,8 @@ body {
 }
 
 .about .row .about-img img {
-  width: 100%;
+  width: 90%;
+  border-radius: 5%;
 }
 
 .about .row .content {
@@ -214,10 +213,15 @@ body {
   font-weight: 100;
 }
 
+.good .good-paragraf {
+  font-weight: 300;
+  font-style: italic;
+}
+
 .good .row {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5rem;
+  margin-top: 2.5rem;
   justify-content: center;
 }
 
@@ -244,6 +248,13 @@ footer {
   padding-bottom: 3rem;
 }
 
+footer h3 {
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+}
+
 footer .socials {
   padding: 1rem 0;
 }
@@ -253,7 +264,8 @@ footer .socials a {
   padding: 1rem;
 }
 
-footer .socials a:hover, footer .links a:hover {
+footer .socials a:hover,
+footer .links a:hover {
   color: var(--bg);
 }
 
@@ -264,11 +276,10 @@ footer .links {
 footer .links a {
   color: #fff;
   padding: 0.7rem 1rem;
-
 }
 
 footer .credit {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 footer .credit a {
@@ -341,7 +352,7 @@ footer .credit a {
     font-size: 2rem;
   }
   .about .row .content p {
-font-size: 1.6rem;
+    font-size: 1.6rem;
   }
 
   .good p {
